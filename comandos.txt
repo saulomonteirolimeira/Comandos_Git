@@ -1,0 +1,37 @@
+# GIT
+
+git help add
+git help commit
+git config --global user.name "Seu nome"
+git config --global user.email seuemai@com.br
+	
+
+- Criar novo repositório
+
+	git init
+
+- Verificar estado dos arquivos
+
+	git status
+
+- Adicionar um arquivo em específico
+
+	git add meu_arquivo.txt
+
+- Adicionar um diretório em específico
+
+	git add meu_diretorio
+
+- Adicionar todos os arquivos
+	
+	git add .	
+	
+- Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório)
+	
+	git add -f seuarquivo.txt
+	
+
+- Comitar um arquivo
+	
+	git commit meu_arquivo.txt
+
